@@ -1,0 +1,34 @@
+# Ficheiros e pastas de compilação do .NET
+[Bb]in/
+[Oo]bj/
+
+# Ficheiros específicos do Visual Studio e do utilizador
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Ficheiros de configuração de ambiente de desenvolvimento
+# É uma boa prática ignorar este ficheiro para que cada membro da equipa
+# possa ter as suas próprias configurações locais sem as partilhar.
+Properties/launchSettings.json
+
+# Ficheiros de User Secrets (se usar)
+secrets.json
+
+# Ficheiros de log e de cache de ferramentas
+*.log
+*.vshost.exe
+*.dotCover
+*.resharper
+nCrunch.*
+
+# Ficheiros de sistema operacional
+Thumbs.db
+.DS_Store
+
+# Ficheiros de base de dados locais (se usar SQLite para testes)
+*.db
+*.db3
+*.sqlite
+*.sqlite3
